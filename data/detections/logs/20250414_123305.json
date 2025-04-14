@@ -1,0 +1,21 @@
+{
+  "timestamp": "20250414_123305",
+  "image_path": "D:\\Anish\\Projects\\Large_Visualzation_Model\\data\\detections\\images\\20250414_123305.jpg",
+  "objects": [
+    {
+      "type": "person",
+      "confidence": 0.9178292751312256,
+      "bbox": [
+        79.1201171875,
+        151.73388671875,
+        588.7137451171875,
+        479.526611328125
+      ],
+      "track_id": 1
+    }
+  ],
+  "stats": {
+    "total_objects": 1,
+    "inference_time": 188.89200000558048
+  }
+}

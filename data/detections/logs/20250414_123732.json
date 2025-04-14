@@ -1,0 +1,32 @@
+{
+  "timestamp": "20250414_123732",
+  "image_path": "D:\\Anish\\Projects\\Large_Visualzation_Model\\data\\detections\\images\\20250414_123732.jpg",
+  "objects": [
+    {
+      "type": "person",
+      "confidence": 0.31113430857658386,
+      "bbox": [
+        96.19580078125,
+        0.0,
+        637.3055419921875,
+        479.2384948730469
+      ],
+      "track_id": 1
+    },
+    {
+      "type": "person",
+      "confidence": 0.28487923741340637,
+      "bbox": [
+        404.18792724609375,
+        202.76751708984375,
+        615.4285278320312,
+        479.81787109375
+      ],
+      "track_id": 2
+    }
+  ],
+  "stats": {
+    "total_objects": 2,
+    "inference_time": 105.8552999747917
+  }
+}
