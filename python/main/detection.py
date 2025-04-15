@@ -7,11 +7,18 @@ import os
 
 class ObjectDetector:
     def __init__(self):
-        self.model = YOLO(YOLO_MODEL)
-        self.last_results = None  # Track last detection results
+        self.model = YOLO("yolov8n.pt")
+        self.model.fuse()  # Optimize model
+        self.last_results = None
         
     def track_objects(self, frame):
-        self.last_results = self.model.track(frame, persist=True)  # Store results
+        # Reduced input size + half-precision
+        self.last_results = self.model.track(
+            frame, 
+            persist=True,
+            imgsz=320,
+            half=True  # Enable if GPU supports FP16
+        )
         return self.last_results[0].plot() if self.last_results else frame
 
     def save_detection(self, frame, results):

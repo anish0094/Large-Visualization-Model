@@ -1,0 +1,32 @@
+{
+  "timestamp": "20250415_141953",
+  "image_path": "D:\\Anish\\Projects\\Large_Visualzation_Model\\data\\detections\\images\\20250415_141953.jpg",
+  "objects": [
+    {
+      "type": "person",
+      "confidence": 0.88720703125,
+      "bbox": [
+        6.0,
+        219.75,
+        566.0,
+        475.75
+      ],
+      "track_id": null
+    },
+    {
+      "type": "cell phone",
+      "confidence": 0.7470703125,
+      "bbox": [
+        281.0,
+        172.75,
+        487.5,
+        341.75
+      ],
+      "track_id": null
+    }
+  ],
+  "stats": {
+    "total_objects": 2,
+    "inference_time": 4503.0546999769285
+  }
+}

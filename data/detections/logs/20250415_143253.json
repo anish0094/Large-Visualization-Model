@@ -1,0 +1,32 @@
+{
+  "timestamp": "20250415_143253",
+  "image_path": "D:\\Anish\\Projects\\Large_Visualzation_Model\\data\\detections\\images\\20250415_143253.jpg",
+  "objects": [
+    {
+      "type": "teddy bear",
+      "confidence": 0.66650390625,
+      "bbox": [
+        264.0,
+        257.0,
+        498.0,
+        479.0
+      ],
+      "track_id": 1
+    },
+    {
+      "type": "person",
+      "confidence": 0.359375,
+      "bbox": [
+        1.0,
+        197.5,
+        491.5,
+        476.0
+      ],
+      "track_id": 2
+    }
+  ],
+  "stats": {
+    "total_objects": 2,
+    "inference_time": 1337.03960001003
+  }
+}
